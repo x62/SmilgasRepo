@@ -1,12 +1,12 @@
-/* 
-====== 
+/*
+======
 Fonts
 ======
 */
 @import url("https://fonts.googleapis.com/css?family=Catamaran:300,400&display=swap");
-/* 
-====== 
-Variables 
+/*
+======
+Variables
 ======
 */
 :root {
@@ -22,9 +22,9 @@ Variables
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --mainBorderRadius: 0.25rem;
 }
-/* 
-====== 
-Global Styles 
+/*
+======
+Global Styles
 ======
 */
 * {
@@ -36,7 +36,8 @@ Global Styles
 body {
   font-family: "Catamaran", sans-serif;
   color: var(--mainBlack);
-  background: var(--mainGrey);
+  /* background: var(--mainGrey); */
+  background: red;
   line-height: 1.4;
   font-size: 1rem;
   font-weight: 300;
@@ -61,9 +62,9 @@ a {
   text-decoration: none;
   color: var(--mainBlack);
 }
-/* 
-====== 
-Buttons 
+/*
+======
+Buttons
 ======
 */
 .btn,
@@ -118,8 +119,8 @@ Buttons
   color: var(--darkGrey);
   border-color: var(--darkGrey);
 }
-/* 
-====== 
+/*
+======
 Navbar
 ======
 */
@@ -155,9 +156,9 @@ Navbar
 .nav-btn:hover {
   color: var(--darkGrey);
 }
-/* 
-====== 
-Content 
+/*
+======
+Content
 ======
 */
 .content {
@@ -167,9 +168,9 @@ Content
   margin: 0 auto;
 }
 
-/* 
-====== 
-Main Title 
+/*
+======
+Main Title
 ======
 */
 .main-title {
@@ -177,8 +178,8 @@ Main Title
   color: var(--primaryColor);
   margin-bottom: 2rem;
 }
-/* 
-====== 
+/*
+======
 Single Expense
 ======
 */
@@ -228,8 +229,8 @@ Single Expense
 .edit-btn {
   color: green;
 }
-/* 
-====== 
+/*
+======
 Expense Form
 ======
 */
@@ -276,8 +277,8 @@ Expense Form
   color: red;
   cursor: pointer;
 }
-/* 
-====== 
+/*
+======
 Modal
 ======
 */
@@ -316,8 +317,8 @@ Modal
   top: 2%;
   right: 3%;
 }
-/* 
-====== 
+/*
+======
 Github Users
 ======
 */
